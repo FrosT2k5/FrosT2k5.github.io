@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## YASH PATIL
 
-You can use the [editor on GitHub](https://github.com/FrosT2k5/FrosT2k5.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Hello There! I am Yash Patil, an teenager who is interested in tech, programming, hacking and development. My interest in technology started when I was around 9 years old and got an Android phone, which later became my one of the favourite operating system out there. Debian based operating systems and Android ofcourse are one of my favourite operating systems. I started from scratch like everyone does and came far but still there is a long long way to go. I recently learnt C and Python and wrote some useless yet fun codes which are available on my github/ Following mentioned are the things that I know
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Skills
+- Intermediate knowledge of Linux/Unix
+- Intermediate knowledge of Shell scripting(Linux)
+- Intermediate knowledge of the scripting language Python
+- Beginner knowledge of C programming
+- Beginner knowledge of AOSP (Android Open Source Project)
+- Beginner knowledge of Android ROM Developemnt
 
-### Markdown
+## Contact me
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/FrosT2k5/FrosT2k5.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Want to talk to me? Want to see my useless repos? Check out these-
+- (My GITHUB)[https://github.com/FrosT2k5/]
+- (My Telegram)[https://t.me/SuperCosmicBeing]
+- (My Instagram)[https://www.instagram.com/yash_patil2k5/]
