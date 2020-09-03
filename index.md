@@ -13,6 +13,6 @@ Hello There! I am Yash Patil, an teenager who is interested in tech, programming
 ## Contact me
 
 Want to talk to me? Want to see my useless repos? Check out these-
-- (My GITHUB)[https://github.com/FrosT2k5/]
-- (My Telegram)[https://t.me/SuperCosmicBeing]
-- (My Instagram)[https://www.instagram.com/yash_patil2k5/]
+- [My GITHUB](https://github.com/FrosT2k5/)
+- [My Telegram](https://t.me/SuperCosmicBeing)
+- [My Instagram](https://www.instagram.com/yash_patil2k5/)
