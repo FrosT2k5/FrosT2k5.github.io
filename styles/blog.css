@@ -1,0 +1,134 @@
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+	margin: 0;
+
+}
+
+h4 {
+	background: #CADADA;
+	margin: 0px;
+	font-family: 'Comic Neue', cursive;
+	padding: 15px;
+	font-size:22px;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	border-radius: 15px;
+}
+
+h2 {
+	font-family: 'Open Sans',sans-serif;
+	font-size: 25px;
+}
+
+h3 {
+	margin: 0px;
+	font-family: 'Comfortaa', cursive;
+	padding: 15px;
+	font-size:22px;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+
+body {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background: url('../images/bgblog.png');
+}
+
+.head {
+	padding: 25px;
+	padding-top: 55px;
+	padding-left: 60px;
+	background-color: #B2AECF;
+	border-radius: 10px;
+	margin-bottom: 25px;
+}
+
+.main {
+	width: 800px;
+	padding: 20px;
+	background: white;
+	opacity: 0.8;
+	margin-left: 70px;
+	float: left;
+	border-radius: 15px ;
+	font-family: 'Comic Neue', sans-serif;
+}
+
+.leftcontent {
+	float: left;
+	background: white;
+	width: 500px;
+	margin-bottom: 0px;
+}
+
+.leftimg {
+	float: left;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+.leftimgmargin {
+	float: left;
+	margin: 95px 30px 90px 30px;
+}
+
+.clear {
+	clear: both;
+}
+
+.nav {
+	width: 300px;
+	float: left;
+	padding: 15px;
+	margin-left: 20px;
+	border-radius: 20px;
+	background: white;
+	opacity: 0.8;
+	margin-top: 150px;
+}
+
+a {
+	text-decoration: none;
+	color: #0366fc;
+	margin: 10px;
+	font-family: 'Comic Neue', cursive;
+}
+
+blockquote {
+	margin-top: 45px;
+	border-left-color: skyblue;
+	border-left-style: solid;
+	border-left-width: 5px;
+	padding: 10px;
+	font-family: 'Comic Neue', cursive;
+
+}
+
+.foot {
+	margin: 25px;
+	margin-left: 90px;
+	margin-right: 90px;
+	opacity: 0.8;
+	padding: 7px;
+	background-color: white;
+	border-radius: 10px;
+	padding-left: 25px;
+}
+
+h6 {
+	display: inline;
+	font-size: 20px;
+	margin-left: 700px;
+	font-family: 'Comic Neue',cursive;
+}
+
+li {
+	padding: 5px;
+	margin: 2px;
+	font-size: 17px;
+}
