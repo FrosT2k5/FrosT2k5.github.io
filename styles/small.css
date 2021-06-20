@@ -1,0 +1,17 @@
+body {
+	width: 100%;
+	margin: 0px;
+}
+
+.main {
+	width: 100%;
+	border-radius: 0;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	margin: 10px;
+}
