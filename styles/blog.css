@@ -37,6 +37,8 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 	background: url('../images/bgblog.png');
+	background-attachment: fixed;
+	background-position: center;
 }
 
 .head {
