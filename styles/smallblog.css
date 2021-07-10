@@ -2,64 +2,86 @@ body {
 	width: 100%;
 	margin: 0;
 	opacity: 0.9;
+	background-size: 600px;
+	background-attachment: scroll;
+	background-position: 0% 0%;
 }
 
 .main {
 	width: 100%;
 	margin: 0;
 	border-radius: 0;
+	float: none;
 }
 
-
-.leftcontent {
-	width: 60%;
+.leftcontent, .leftimg, .leftimgmargin {
+	float: none;
+	margin: 0;
 }
 
 .leftimg,.leftimgmargin {
 	margin: 0;
 	max-width: 35%;	
-	margin-top: 40px;
+	width: 35%;
+	display: none;
 }
 
 .leftimg {
 	margin-left: 30px;
 }
 
+.leftcontent {
+	width: 100%;
+	margin-bottom: 75px;
+	border-bottom: 2px solid gray;
+}
+
 h1 {
-	font-size: 30px;
+	font-size: 45px;
 }
 
 .head {
 	padding: 15px;
 	padding-top: 25px;
 	text-align: center;
+	margin-bottom: 100px;
 }
 
 h3 {
-	margin: 10px;
+	margin: 35px;
 	font-size: 18px;
 	text-align: center;
 }
 
 .nav {
-	width: 94%;
+	width: 100%;
 	margin: 0;
 	border-radius: 0;
 	margin-top: 30px;
-
+	float: none;
 }
 
 .foot {
-	width: 75%;
+	width: 100%;
 	margin-left: 0;
 	margin: 0 auto;
 	margin-top: 25px;
 	text-align: center;
 	padding: 20px;
 	margin-bottom: 25px;
+	float: none;
 }
 
 h6 {
 	display: block;
 	margin: 30px;
+}
+
+li {
+	margin-left: 10%;
+}
+
+.foot img {
+	width: 70px;
+	margin-right: 25px;
 }
