@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+body {
+	background-image: url('../images/bdaybg.jpg');
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.main {
+	background-color: lightblue;
+	color: black;
+	width: 450px;
+	opacity: 0.8;
+	margin: 0 auto;
+	padding:  10px;
+	border-style: solid;
+	border-color: #EAA221;
+	border-radius: 13px;
+}
+
+p {
+	font-family: 'Comic Neue', cursive;
+	font-size: 18px;
+}
+
+.he1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 35px;
+	background-color: #EAA221;
+	padding: 10px;
+	margin: 10px;
+	margin-top: 15px;
+	border-radius: 15px;
+}
+
+.he2 {
+	font-family: 'Indie Flower', cursive;
+	font-size: 29px;
+}
+
+.img {
+	margin: 0 50px 0 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
