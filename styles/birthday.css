@@ -6,6 +6,7 @@ body {
 	background-image: url('../images/bdaybg.jpg');
 	background-attachment: fixed;
 	background-position: center;
+	width: 98%;
 }
 
 .main {
@@ -18,6 +19,7 @@ body {
 	border-style: solid;
 	border-color: #EAA221;
 	border-radius: 13px;
+	color: black;
 }
 
 p {
@@ -44,4 +46,45 @@ p {
 	margin: 0 50px 0 50px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	width: 350px;
 }
+
+.img2 {
+	width: 453px;
+}
+
+@media only screen and (max-width: 1060px) {
+	body {
+		background-attachment: scroll;
+		background-position: unset;
+		width: 100%;
+	}
+
+	.main {
+		width: 90%;
+	}
+
+	.img {
+		width: 85%;
+		margin: 20px;
+	}
+
+	.img2 {
+		width: 95%;
+	}
+       
+	.he1 {
+		font-size: 75px;     
+
+	}
+	
+	.he2 {
+		font-size: 55px;
+	}
+
+	p {
+		font-size: 35px;
+
+	}
+
+	}
