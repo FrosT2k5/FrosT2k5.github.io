@@ -6,6 +6,10 @@
 	height: 50px;
 }
 
+#head_icons a {
+        text-decoration: None;
+}
+
 body {
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
@@ -333,6 +337,10 @@ body {
 	margin-bottom: 15px;
 }
 
+#footericons a {
+	text-decoration: None;
+}
+
 .footicon {
 	padding: 5px;
 	margin-top: 15px;
@@ -359,8 +367,8 @@ body {
 	color: white;
 }
 
-#footer a {
-	color: white;
+#aagam {
+	color: pink;
 	text-decoration: underline;
 }
 
