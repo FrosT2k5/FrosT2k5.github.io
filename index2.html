@@ -19,6 +19,7 @@
 	<link rel="stylesheet" type="text/css" href="styles/portfolio.css">
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 	<link rel="image_src" href="https://frost2k5.games/images/favicon-300.png">
+	<script type="text/javascript" src="js/form.js"></script>
 </head>
 
 <body>
@@ -107,13 +108,13 @@
 
 	<div id="contact">
 		<h1 align="center"> CONTACT ME</h1>
-		<form name="contactus">
+		<form name="contactus" onsubmit="sub()">
 			<h4>Your name</h4>
 			<input type="text" name="fullname">
 			<h4>Your email</h4>
 			<input type="text" name="email">
 			<h4>Your message</h4>
-			<textarea rows="6" cols="50"></textarea><br>
+			<textarea rows="6" cols="50" name="message"></textarea><br>
 			<input type="submit" name="Submit" value="SUBMIT">
 		</form>
 			<div id="contacticons">
