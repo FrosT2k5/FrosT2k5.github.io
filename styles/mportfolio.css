@@ -1,0 +1,121 @@
+.fright {
+	float: None;
+}
+
+#frostlogo {
+	display: None;
+}
+
+#head {
+	margin-bottom: 85px;
+}
+
+#head h1 {
+	border-style: None;
+	text-align: center;
+	float: None;
+	padding-top: 15px;
+}
+
+#head_icons {
+	text-align: center;
+	border-left-style: solid;
+	border-right-style: solid;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#head_icons img {
+	margin-top: 0;
+}
+
+#welcome h2 {
+	padding-top: 100px;
+}
+
+#about {
+	height: unset;	
+}
+#about img {
+	float: None;
+	width: 90%;
+}
+
+#about h3,p {
+	float: None;
+	width: 90%;
+}
+
+#about h3 {
+	text-align: center;
+}
+
+#about p {
+	margin-left: 5%;
+}
+
+#projects {
+	float: None;
+}
+
+#projects a {
+	text-decoration: None;
+}
+
+#project2,#project4,#project6,#project1,#project3,#project5 {
+	float: None;
+	width: 90%;
+	margin-left: 4%;
+	margin-top: 40px;
+}
+
+#contact form {
+	width: 80%;
+	float: None;
+}
+
+#contact input[type=submit] {
+	padding: 17px;
+}
+
+#contacticons {
+	float: None;
+	margin: auto;
+	margin-top: 15px;
+	width: 220px;
+	margin-top: 30px;
+}
+
+.conicons {
+	margin-top: 15px;
+	width: 26px;
+}
+
+#footer h2 {
+	font-size: 2.3rem;
+}
+
+.footicon {
+	padding-right: 10px;
+	margin-bottom: 30px;
+}
+
+.footiconlone {
+	margin-bottom: 30px;
+}
+
+#footer {
+	padding: 15px;
+	padding-bottom: 0px;
+}
+
+#footer p {
+	margin-top: 30px;
+	margin-bottom: 0px;
+	width: 100%;
+	padding-bottom: 5px;
+}
+
+#footericons {
+	margin-bottom: 0px;
+}
