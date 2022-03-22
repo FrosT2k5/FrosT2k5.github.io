@@ -86,7 +86,7 @@ body {
 	text-decoration: none;
 }
 
-#projects h1 {
+#projects h2 {
 	padding-top: 55px;
 	padding-bottom: 35px;
 	color: #ffd537;
@@ -262,7 +262,7 @@ body {
 	width: 100%;
 }
 
-#contact h1 {
+#contact h2 {
 	color: #007bd9;
 	margin-bottom: 50px;
 }

@@ -36,6 +36,7 @@
 #about {
 	height: unset;	
 }
+
 #about img {
 	float: None;
 	width: 90%;
@@ -48,6 +49,9 @@
 
 #about h3 {
 	text-align: center;
+	margin: auto;
+	margin-top: 45px;
+
 }
 
 #about p {
