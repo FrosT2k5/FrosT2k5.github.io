@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https//frost2k5.games/sitemap.xml
