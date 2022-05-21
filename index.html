@@ -17,6 +17,8 @@
 	<!-- End Meta Tags -->
 
 	<title>Yash Patil's (FrosT2k5) Portfolio</title>
+
+  	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<link rel="stylesheet" type="text/css" href="styles/portfolio.css">
 	<link rel="stylesheet" type="text/css" href="styles/mportfolio.css" media="only screen and (max-width: 768px)">
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
@@ -52,23 +54,24 @@
 		<h2 align="center">Hi there!<br>Welcome to my portfolio</h2>
 	</div>
 
-	<div id="about">
-			<img src="images/aboutlogo.jpg">
+	<div id="about" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out">
+			<img src="images/aboutlogo.jpg" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-out"
+>
 			<h3>ABOUT ME</h3>
 			<p>Hello There! I am Yash Patil, a teenager who is interested in tech, programming, hacking and development. My interest in technology started when I was around 9 years old and got an Android phone, which later became my one of the favourite operating system out there. Debian based operating systems and Android ofcourse are some of my favourite operating systems. I started from scratch like everyone does and came far but still there is a long long way to go. I recently learnt C and Python and wrote some useless yet fun codes which are available on my github. <br>Following mentioned are some of my projects</p>
 	</div>
 
 	<div class="clear"></div>
 	<div id="projects">
-		<h2 align="center">PROJECTS</h2>
-		<a href="https://github.com/FrosT2k5/DragonAssistant.git" target="_blank">
+		<h2 align="center" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out">PROJECTS</h2>
+		<a href="https://github.com/FrosT2k5/DragonAssistant.git" target="_blank" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out">
 			<div id="project1">
 				<img src="images/da2.png" alt="Dragon Assistant">
 				<p>Dragon Assistant - CLI Assistant made with python</p>
 			</div>
 		</a>
 
-		<a href="https://github.com/FrosT2k5/TypingTest.git" target="_blank">
+		<a href="https://github.com/FrosT2k5/TypingTest.git" target="_blank" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out">
 			<div id="project2">
 				<img src="images/ty2.png" alt="Typing Test">
 				<p>TypingTest- CLI Typing test app made with python</p>
@@ -77,14 +80,14 @@
 
 		<div class="clear"></div>
 		
-		<a href="https://t.me/derpsakura" target="_blank">
+		<a href="https://t.me/derpsakura" target="_blank" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out">
 			<div id="project3">
 				<img src="images/derp2.jpg" alt="DerpFest Sakura">
 				<p align="center">DerpFest OS For Redmi 6 Pro(Sakura)</p>
 			</div>
 		</a>
 
-		<a href="https://github.com/SkyLab-Devs/CosmicUserbot" target="_blank">
+		<a href="https://github.com/SkyLab-Devs/CosmicUserbot" target="_blank" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out">
 			<div id="project4">
 				<img src="images/cosmic.jpg" alt="Cosmic Userbot">
 				<p align="center">Cosmic Userbot - Userbot for telegram</p>
@@ -94,13 +97,13 @@
 		<div class="clear"></div>
 
 		<a href="#">
-			<div id="project5">
+			<div id="project5" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out">
 				<img src="images/website.png">
 				<p>This website haha :p</p>
 			</div>
 		</a>
 
-		<div id="project6">
+		<div id="project6" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out">
 			<img src="images/projects.webp" alt="projects">
 			<p>New projects soon :) ...</p>
 		</div>
@@ -109,8 +112,8 @@
 	</div>
 
 	<div id="contact">
-		<h2 align="center"> CONTACT ME</h2>
-		<form name="contactus" onsubmit="sub()">
+		<h2 align="center" data-aos="fade" data-aos-duration="2000"> CONTACT ME</h2>
+		<form name="contactus" onsubmit="sub()" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-out">
 			<h4>Your name</h4>
 			<input type="text" name="fullname">
 			<h4>Your email</h4>
@@ -119,7 +122,7 @@
 			<textarea rows="6" cols="50" name="message"></textarea><br>
 			<input type="submit" name="Submit" value="SUBMIT">
 		</form>
-			<div id="contacticons">
+			<div id="contacticons" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-out">
 				<a href="https://instagram.com/yash_patil2k5" target="_blank" >
 					<img src="images/instagram.png" alt="instagram" class="conicons" width="20px">
 					@yash_patil2k5
@@ -147,9 +150,9 @@
 	<div id="space"></div>
 
 	<div id="footer">
-		<h2>Thank you for visiting!<br>Have a nice day ahead.</h2>
+		<h2 data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out" id="footerh2">Thank you for visiting!<br>Have a nice day ahead.</h2>
 
-		<div id="footericons">
+		<div id="footericons" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1500" data-aos-anchor="#footerh2">
 			<a href="https://instagram.com/yash_patil2k5" target="_blank" >
 				<img src="images/instagram.png" alt="instagram" class="footicon">
 			</a>
@@ -169,5 +172,10 @@
 
 		</div>
 	</div>
+
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  	<script>
+    	AOS.init();
+  	</script>
 </body>
 </html>
