@@ -37,7 +37,7 @@
 	height: unset;	
 }
 
-#about img {
+#mylogo {
 	float: None;
 	width: 90%;
 }
@@ -51,7 +51,14 @@
 	text-align: center;
 	margin: auto;
 	margin-top: 45px;
+}
 
+.visitcounter {
+	text-align: center;
+	float: none;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 #about p {
