@@ -116,11 +116,11 @@
 		<h2 align="center" data-aos="fade" data-aos-duration="2000"> CONTACT ME</h2>
 		<form name="contactus" onsubmit="sub()" data-aos="fade-right" data-aos-duration="700" data-aos-easing="ease-out">
 			<h4>Your name</h4>
-			<input type="text" name="fullname">
+			<input type="text" name="fullname" placeholder="John Doe" required>
 			<h4>Your email</h4>
-			<input type="text" name="email">
+			<input type="text" name="email" placeholder="johndoe@example.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address." required>
 			<h4>Your message</h4>
-			<textarea rows="6" cols="50" name="message"></textarea><br>
+			<textarea rows="6" cols="50" name="message" placeholder="Hey! How is your day going?" required></textarea><br>
 			<input type="submit" name="Submit" value="SUBMIT">
 		</form>
 			<div id="contacticons" data-aos="flip-right" data-aos-duration="700" data-aos-easing="ease-out">
