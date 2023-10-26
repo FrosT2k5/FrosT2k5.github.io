@@ -118,7 +118,7 @@
 			<h4>Your name</h4>
 			<input type="text" name="fullname" placeholder="John Doe" required>
 			<h4>Your email</h4>
-			<input type="text" name="email" placeholder="johndoe@example.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address." required>
+			<input type="text" name="email" placeholder="johndoe@example.com" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" title="Please enter a valid email address." required>
 			<h4>Your message</h4>
 			<textarea rows="6" cols="50" name="message" placeholder="Hey! How is your day going?" required></textarea><br>
 			<input type="submit" name="Submit" value="SUBMIT">
