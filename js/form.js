@@ -8,3 +8,24 @@ function sub() {
 	fetch(url)
 	alert("Message sent!")
 }
+
+async function simulateTyping(elementID, editText, timeout) {
+
+	function sleep(ms) {
+		return new Promise(resolve => setTimeout(resolve, ms));
+	}
+
+	const domElement = document.getElementById(elementID)
+	let textString = ""
+	const ignoreUpdate = ['<','>']
+
+	for (i=0; i<editText.length; i++) {
+		textString += editText[i]
+		if (!ignoreUpdate.includes(editText[i])) {
+			domElement.innerHTML = textString + "|"
+		}
+		await sleep(timeout)
+	}
+
+	domElement.innerHTML = textString
+}

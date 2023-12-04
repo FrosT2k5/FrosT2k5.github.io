@@ -414,3 +414,7 @@ h1 {
 #frostlogo {
 	margin-top: 12px;
 }
+
+.scaleOnHover:hover {
+	transform: scale(1.05);
+}
