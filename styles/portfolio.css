@@ -418,3 +418,7 @@ h1 {
 .scaleOnHover:hover {
 	transform: scale(1.05);
 }
+
+.scaleOnHoverL:hover {
+	transform: scale(1.2);
+}
