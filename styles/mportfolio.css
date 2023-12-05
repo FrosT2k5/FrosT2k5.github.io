@@ -3,7 +3,9 @@
 }
 
 #frostlogo {
-	display: None;
+	display: inline;
+	margin-top: 6px;
+	margin-left: 5%;
 }
 
 #head {
@@ -16,13 +18,14 @@
 	border-style: None;
 	text-align: center;
 	float: None;
-	margin-top: 25px;
-        margin-bottom: 0;
+	font-size: 1.5rem;
+	margin: 25px 0 0 0;
 }
 
 #head_icons {
 	text-align: center;
         padding: 0.7rem;
+	float: None;
 }
 
 #head_icons img {
