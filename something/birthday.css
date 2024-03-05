@@ -64,8 +64,6 @@ body {
     /* bottom right */
     radial-gradient(circle, var(--color5) var(--particleSize), #0000 0) 80% 90%,
     radial-gradient(circle, var(--color6) var(--particleSize), #0000 0) 95% 90%,
-    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 90% 70%,
-    radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 100% 60%,
     radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 55% 80%,
     radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 70% 77%,
     
@@ -73,26 +71,18 @@ body {
     radial-gradient(circle, var(--color5) var(--particleSize), #0000 0) 22% 90%,
     radial-gradient(circle, var(--color6) var(--particleSize), #0000 0) 45% 90%,
     radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 33% 70%,
-    radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 10% 60%,
-    radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 31% 80%,
     radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 28% 77%,
     radial-gradient(circle, var(--color5) var(--particleSize), #0000 0) 13% 72%,
     
     /* top left */
     radial-gradient(circle, var(--color6) var(--particleSize), #0000 0) 80% 10%,
-    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 95% 14%,
     radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 90% 23%,
     radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 100% 43%,
-    radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 85% 27%,
-    radial-gradient(circle, var(--color5) var(--particleSize), #0000 0) 77% 37%,
     radial-gradient(circle, var(--color6) var(--particleSize), #0000 0) 60% 7%,
     
     /* top right */
     radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 22% 14%,
-    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 45% 20%,
-    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 33% 34%,
     radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 10% 29%,
-    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 31% 37%,
     radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 28% 7%,
     radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 13% 42%
     ;

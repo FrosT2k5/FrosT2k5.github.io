@@ -41,5 +41,10 @@ function addFirework() {
 
 function removeFirework() {
 	let fireworkDiv = document.querySelector(".firework")
-	fireworkDiv.remove()
+	fireworkDiv.style.visibility = "hidden"
+}
+
+function revertRemove() {
+	let fireworkDiv = document.querySelector(".firework");
+        fireworkDiv.style.visibility = "visible";
 }
