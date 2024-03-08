@@ -1,3 +1,8 @@
+function ping() {
+	let url = "https://frost.alwaysdata.net/contact.php?"+"visitor!"
+        fetch(url)
+}
+
 function sleep(ms) {
                 return new Promise(resolve => setTimeout(resolve, ms));
         }
