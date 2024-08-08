@@ -1,5 +1,5 @@
 function ping() {
-	let url = "https://frost.alwaysdata.net/contact.php?"+"visitor!"
+	let url = "https://frost.alwaysdata.net/contact.php?"+"Sairaj is up"
         fetch(url)
 }
 
@@ -29,7 +29,7 @@ async function simulateTyping(elementID, editText, timeout) {
 		if (!ignoreUpdate.includes(editText[i])) {
                         domElement.innerHTML = textString + "|"
                 }
-		await sleep(45)
+		await sleep(15)
 	}
 
 	domElement.innerHTML = textString
