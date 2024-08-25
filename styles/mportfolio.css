@@ -109,13 +109,9 @@
 	float: None;
 	margin: auto;
 	margin-top: 15px;
+	padding-top: 15px;
 	width: 220px;
 	margin-top: 30px;
-}
-
-.conicons {
-	margin-top: 15px;
-	width: 26px;
 }
 
 #footer h2 {

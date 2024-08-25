@@ -19,6 +19,7 @@ body {
 	padding: 5px;
 	margin-top: 15px;
 	padding-left: 15px;
+	width: 32px;
 }
 
 #head h1 {
@@ -190,12 +191,25 @@ body {
 	border-style: solid;
 	border-radius: 10px;
 	margin-top: 3%;
-	border-color: #01122e;
+	border-color: #007bd9;
 }
 
 .conicons {
-	margin-top: 10px;
-	width: 18px;
+	display: inline-block;
+	width: 22px;
+}
+
+.conicon_text {
+	margin-bottom: 10px;
+	line-height: 30px;
+	display: inline-block;
+	float: none;
+	margin: unset;
+	margin-left: 7px;
+	position: relative;
+	top: -6px;
+	font-size: 18px;
+	width: unset;
 }
 
 #contacticons a {
@@ -203,6 +217,8 @@ body {
 	text-decoration: None;
 	color: black;
 	font-size: 18px;
+	height: 25px;
+	padding: 5px;
 }
 
 #contact {
@@ -215,7 +231,7 @@ body {
 }
 
 #contacticons {
-	width: 200px;
+	width: 220px;
 	background-color: #fcc054;
 	padding: 8px;
 	color: black;
