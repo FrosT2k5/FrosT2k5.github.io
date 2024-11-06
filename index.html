@@ -59,7 +59,10 @@
 			</div>
 			<h3 data-aos="fade-up" data-aos-duration="400" data-aos-easing="ease-out" data-aos-offset="-200">ABOUT ME</h3>
 			<div data-aos="fade-up" data-aos-duration="400" data-aos-offset="-200" data-aos-easing="ease-out">
-				<img src="https://image-1-c7913707.deta.app/visitcounter" align="center" class="visitcounter scaleOnHover">
+				<div class="visitcounter">
+					<span class="visitcounter-label">View Count </span>
+					<span class="visitcounter-count" id="visitcount">0</span>
+				</div>
 			</div>
 			<p data-aos="fade-up" data-aos-duration="400" data-aos-easing="ease-out" data-aos-offset="-200">Hello! My name is Yash Patil and I am a teenager with a passion for technology, programming, hacking, and development. My interest in technology began at the age of 9, when I received my first Android phone. Since then, I have become a fan of Debian-based operating systems and Android. I started from the basics and have come a long way in my learning journey, but I know there is still much more to discover. Recently, I have gained proficiency in the programming languages C and Python, and have created several fun and educational projects which can be found on my GitHub profile. <br>Here are some of the projects I worked on:</p>
 
@@ -235,6 +238,22 @@
 			await simulateTyping("welcomeText","Hey There!<br>Welcome to my portfolio!",80)
 		})()
     	AOS.init({ once: true });
+
+		// Visit Counter 
+		const counterElement = document.getElementById("visitcount");
+		let visitCount = 0;
+		const counterApiURL = "https://api.counterapi.dev/v1/frost2k5/portfolio/up";
+		
+		visitCount = fetch(counterApiURL)
+			.then( (resp) => {
+				return resp.json();
+			})
+			.then( (data) => {
+				visitCount = data.count;
+				counterElement.innerHTML = visitCount;
+			})
+
+
   	</script>
 </body>
 </html>

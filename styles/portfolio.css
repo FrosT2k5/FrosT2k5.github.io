@@ -79,8 +79,22 @@ body {
 	border-color: #185adb;
 	border-radius: 6px;
 	display: block;
+	font-size: 22px;
 }
 
+.visitcounter-label {
+	background-color: #01122e;
+	color: #fcc054;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: inline;
+	border-radius: 3px 0 0 3px;
+}
+
+.visitcounter-count {
+	padding: 15px;
+	display: inline;
+}
 
 #about h3 {
 	color: #185adb;
