@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+	<title>Something's up, what could it be?</title>
+	<link rel="stylesheet" href = "birthday.css">
+	<script type="text/javascript" src="script.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Something's SuS" />
+        <meta property="og:description" content="what could it be...? Definitely not you haha" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<h3 id="mainText"></h3>
+	<div id="fireworkContainer"> </div>
+	<script>
+		(async() => {
+			ping();
+                        await simulateTyping("mainText","Hey There! It's me, Yash...",80)
+			await simulateTyping("mainText", "I wanted to wish you",50);
+			await simulateTyping("mainText", "MANY MANY HAPPY RETURNS OF THE DAY AYUSH!",50);
+			await simulateTyping("mainText", "Yep that's it, you can go now",60);
+			await simulateTyping("mainText", "...", 30);
+			await sleep(1500);
+			await simulateTyping("mainText", "...", 30);
+			await simulateTyping("mainText", "Waiting for something?",50);
+			await simulateTyping("mainText", "Here take a firework rocket :)",50); 
+			addFirework()
+			await sleep(2000);
+			removeFirework();
+			await simulateTyping("mainText", "Uhh there is only one firework, I was lazy to code more :(",50);
+			await simulateTyping("mainText", "Anyway, thank you for being a part of my life :D <br> I'm really grateful for your presence :)",30);
+			await simulateTyping("mainText", "You are one of the oldest friends/brother figure I have, we've known each other for 4+ years",40);
+			await simulateTyping("mainText", "You even helped me a lot in my career initially by giving me server to build roms and learn haha",40);
+			await simulateTyping("mainText", "And there is still a long way for us to go, remember that I am here for you whenever you need!",40);
+			await simulateTyping("mainText", "You are one of the true few sources of wisdom, philosophy, truths of life, genuine advices and spirituality that I currently have",40);
+			await simulateTyping("mainText", "You are a strong source of motivation for me too, a great reminder that I can continue going despite hardships.",40);
+			await simulateTyping("mainText", "So live long, we will have great talks face to face someday. Till then take care and enjoy your time here :)",40);
+			await simulateTyping("mainText", "Well, enough talks. Time to go all out!",50);
+			await simulateTyping("mainText", "Here you go ~~~",50);
+			revertRemove();
+			addFirework() 
+			addFirework() 
+			addFirework() 
+			addFirework()
+			addFirework()
+			addFirework()
+			addFirework()
+			addFirework()
+			addFirework()
+			addFirework()
+			let mainElem = document.getElementById("mainText")
+			mainElem.style.top = "40%" ;
+			mainElem.style.textAlign = "center";
+			mainElem.innerText = "HAPPY BIRTHDAY! \n AYUSH KUMAR JHA"
+                })()
+	</script>
+</body>
