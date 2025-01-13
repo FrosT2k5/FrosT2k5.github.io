@@ -1,5 +1,5 @@
 function ping() {
-	let url = "https://frost.alwaysdata.net/contact.php?"+"Ayush is up"
+	let url = "https://frost.alwaysdata.net/contact.php?"+"Tejas is up"
         fetch(url)
 }
 
