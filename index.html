@@ -12,7 +12,6 @@
 	<meta property="og:description" content="FrosT2k5's portfolio, everything you need to know about yash patil ~ FrosT" />
 	<meta property="og:image" content="https://frost2k5.is-a.dev/images/favicon-300.png" />
 	<meta name="google-site-verification" content="zgKe80Az4c6da_13W6JuyTbo989ONgS6lwBoGuTEs6g" />
-	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 	<!-- End Meta Tags -->
 
 	<title>Yash Patil's (FrosT2k5) Portfolio</title>
@@ -242,14 +241,14 @@
 		// Visit Counter 
 		const counterElement = document.getElementById("visitcount");
 		let visitCount = 0;
-		const counterApiURL = "https://api.counterapi.dev/v1/frost2k5/portfolio/up";
+		const counterApiURL = "https://frost.alwaysdata.net/visitcounter.php?scope=yash_portfolio";
 		
 		visitCount = fetch(counterApiURL)
 			.then( (resp) => {
-				return resp.json();
+				return resp.text();
 			})
 			.then( (data) => {
-				visitCount = data.count;
+				visitCount = data;
 				counterElement.innerHTML = visitCount;
 			})
 

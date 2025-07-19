@@ -4,7 +4,7 @@ function sub() {
 	var email = frm['email'].value
 	var msg = frm['message'].value
 	var req = "Name: " + fullname + "%0A%0AEmail: " + email + "%0A%0AMessage: " + msg
-	var url = "http://frost.alwaysdata.net/contact.php?"+req
+	var url = "https://frost.alwaysdata.net/contact.php?"+req
 	fetch(url)
 	alert("Message sent!")
 }
